@@ -16,7 +16,7 @@ gin middleware to automatically generate RESTFUL API documentation with Swagger 
 2. Download [Swag](https://github.com/swaggo/swag) for Go by using:
 
 ```sh
-go get -u github.com/swaggo/swag/cmd/swag
+go install github.com/swaggo/swag/cmd/swag@latest
 ```
 
 3. Run the [Swag](https://github.com/swaggo/swag) at your Go project root path(for instance `~/root/go-peoject-name`),
